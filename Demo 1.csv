@@ -1,4 +1,4 @@
-﻿Year,University,Sex,Number of student,Gender,signed_people
+year,university,sex,people,gender,signed_people
 2015,California Institute of Technology,1,740,Male,740
 2015,California Institute of Technology,2,"1,503",Female,"-1,503"
 2015,Harvard University,1,"10,076",Male,10076
