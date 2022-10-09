@@ -6,23 +6,16 @@ body *{
     font-weight: 900;
   }
   
-  body {
-      background-image: url('https://user-images.githubusercontent.com/91320868/194749423-c735358f-1c31-4bbe-953d-04e5ee581fc5.jpg');
-  }
-  
   .page {
-    width: 70%;
+    width: 80%;
     background-color: white;
     margin: auto;
-    padding: auto;
-    padding-top: auto;
+    padding: 50px;
+    padding-top: 35px;
     text-align: center;
   }
   
   .vis-container {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 50%;
   }
   
