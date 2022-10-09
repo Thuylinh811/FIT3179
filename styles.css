@@ -1,0 +1,48 @@
+body *{
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  h1 {
+    font-weight: 900;
+  }
+  
+  body {
+      background-image: url('https://user-images.githubusercontent.com/91320868/194749423-c735358f-1c31-4bbe-953d-04e5ee581fc5.jpg');
+  }
+  
+  .page {
+    width: 70%;
+    background-color: white;
+    margin: auto;
+    padding: auto;
+    padding-top: auto;
+    text-align: center;
+  }
+  
+  .vis-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .description h2,
+  h1 {
+    margin-top: 0px;
+  }
+  
+  .description-right {
+    padding-left: 0px;
+  }
+  
+  .description-left {
+    padding-right: 0px;
+  }
+  
+  .pure-g {
+    margin: auto;
+  }
+  
+  .small-font {
+    font-size: 14px;
+  }
