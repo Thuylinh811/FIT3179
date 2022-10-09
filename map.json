@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Top 500 Univeristies Average Score (2015)",
-  "width": 700,
-  "height": 300,
+  "width": 500,
+  "height": 250,
   "projection": {"type": "equalEarth"},
   "data": {
     "url": "https://raw.githubusercontent.com/Thuylinh811/FIT3179/main/ne_110m%20(1).json",
