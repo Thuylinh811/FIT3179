@@ -26,7 +26,7 @@
         "x": {
           "aggregate": "sum",
           "field": "people",
-          "title": "people",
+          "title": "number of students",
           "stack": "normalize"
         },
         "order": {"field": "gender", "sort": "descending"},
@@ -69,7 +69,7 @@
         "x": {
           "aggregate": "sum",
           "field": "people",
-          "title": "people",
+          "title": "number of students",
           "stack": "normalize"
         },
         "order": {"field": "gender", "sort": "descending"},
