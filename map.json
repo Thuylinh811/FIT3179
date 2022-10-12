@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Top 500 Univeristies Average Score (2015)",
-  "width": 500,
-  "height": 250,
+  "width": 800,
+  "height": 400,
   "projection": {"type": "equalEarth"},
   "data": {
     "url": "https://raw.githubusercontent.com/Thuylinh811/FIT3179/main/ne_110m%20(1).json",
@@ -64,7 +64,10 @@
           "scale": {
             "type": "threshold",
             "domain": [10, 50, 100, 150],
-            "range": ["#ffffd4", "#fed98e", "#fe9929", "#cc4c02"]
+            "range": ["#7cd5c0",
+            "#3ca57b",
+            "#1b8689",
+            "#0b686a"]
           }
         },
         "tooltip": [
@@ -75,5 +78,7 @@
       }
     }
   ],
-  "config": {}
+  "config": {
+    "view":{"stroke":"transparent"}
+  }
 }

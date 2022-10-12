@@ -1,0 +1,81 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Top 10 Universities' Tution Fees",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Thuylinh811/FIT3179/main/Tuition%20fee%20long%20data.csv"
+  },
+  "height": 300,
+  "width": 400,
+  "mark": {"type": "bar"},
+  "transform": [
+    {"filter": "datum.date==year"},
+    {
+      "filter": {
+        "field": "university",
+        "oneOf": [
+          "Harvard University",
+          "Massachusetts Institute of Technology",
+          "Stanford University",
+          "University of Cambridge",
+          "California Institute of Technology",
+          "Princeton University",
+          "University of Oxford",
+          "University of Chicago",
+          "Columbia University",
+          "University of California"
+        ]
+      }
+    }
+  ],
+  "params": [
+    {
+      "name": "year",
+      "value": 2015,
+      "bind": {
+        "input": "range",
+        "min": 2011,
+        "max": 2015,
+        "step": 1,
+        "name": "Year selection:"
+      }
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "university",
+      "type": "nominal",
+      "title": "University",
+      "axis": {"grid": false, "labelAngle": 20},
+      "sort": "-y"
+    },
+    "y": {
+      "field": "tuition_fee",
+      "type": "quantitative",
+      "title": "Tuition fee",
+      "axis": {"grid": false}
+    },
+    "color": {
+      "field": "university",
+      "type": "nominal",
+      "scale": {
+        "range": [
+          "#142458",
+          "#186ba1",
+          "#1a9ce6",
+          "#2fb7e1",
+          "#1bd5d4",
+          "#1de4bd",
+          "#7cd5c0",
+          "#3ca57b",
+          "#1b8689",
+          "#0b686a"
+        ]
+      }
+    },
+    "tooltip": [
+      {"field": "university", "title": "University"},
+      {"field": "tuition_fee", "title": "Tution fee"}
+    ]
+  },
+  "config": {}
+}

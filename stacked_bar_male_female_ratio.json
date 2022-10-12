@@ -1,0 +1,85 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width":300,
+  "height":300,
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/Thuylinh811/FIT3179/main/Demo%203.csv"
+      },
+      "title": "Top 10 Univerties Male and Female Ratio",
+      "transform": [
+        {"calculate": "datum.sex == 2 ? 'Female' : 'Male'", "as": "gender"},
+        {
+          "joinaggregate": [{"op": "sum", "field": "people", "as": "total"}],
+          "groupby": ["university"]
+        },
+        {"calculate": "datum.people / datum.total", "as": "fraction"}
+      ],
+      "params": [
+        {
+          "name": "uni_highlight",
+          "select": {"type": "point", "fields": ["gender"]},
+          "bind": "legend"
+        }
+      ],
+      "mark": "bar",
+      "encoding": {
+        "x": {
+          "aggregate": "sum",
+          "field": "people",
+          "title": "Number of students",
+          "stack": "normalize"
+        },
+        "order": {"field": "gender", "sort": "descending"},
+        "y": {"field": "university", "type": "ordinal","title":"University"},
+        "color": {
+          "field": "gender",
+          "type": "nominal",
+          "scale": {"range": ["#186ba1", "#3ca57b"]}
+        },
+        "opacity": {
+          "condition": {"param": "uni_highlight", "value": 0.9},
+          "value": 0.2
+        },
+        "tooltip": [
+          {"field": "gender", "type": "nominal", "title": "Gender"},
+          {"field": "university", "type": "nominal", "title": "University"},
+          {
+            "aggregate": "sum",
+            "field": "people",
+            "type": "quantitative",
+            "title": "Number of students"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/Thuylinh811/FIT3179/main/Demo%203.csv"
+      },
+      "transform": [
+        {"calculate": "datum.sex == 2 ? 'Female' : 'Male'", "as": "gender"},
+        {
+          "joinaggregate": [{"op": "sum", "field": "people", "as": "total"}],
+          "groupby": ["university"]
+        },
+        {"calculate": "datum.people / datum.total", "as": "fraction"}
+      ],
+      "mark": {"type": "text", "dy": 0, "dx": -20, "angle": 0},
+      "encoding": {
+        "x": {
+          "aggregate": "sum",
+          "field": "people",
+          "title": "Number of students",
+          "stack": "normalize"
+        },
+        "order": {"field": "gender", "sort": "descending"},
+        "y": {"field": "university", "type": "ordinal"},
+        "color": {"value": "white"},
+        "text": {"field": "fraction", "type": "quantitative", "format": ".0%"}
+      }
+    }
+  ],
+  "config": {}
+}
