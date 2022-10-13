@@ -1,301 +1,301 @@
-key,value,category,year
-Alumni,100,Harvard University,2011
-Award,100,Harvard University,2011
-HiCi,100,Harvard University,2011
-PUB,100,Harvard University,2011
-PSC,100,Harvard University,2011
-PCP,71.1,Harvard University,2011
-Alumni,41.2,Stanford University,2011
-Award,78.4,Stanford University,2011
-HiCi,88.4,Stanford University,2011
-PUB,70.2,Stanford University,2011
-PSC,70.3,Stanford University,2011
-PCP,48.6,Stanford University,2011
-Alumni,72.8,Massachusetts Institute of Technology,2011
-Award,81.9,Massachusetts Institute of Technology,2011
-HiCi,67.9,Massachusetts Institute of Technology,2011
-PUB,70.6,Massachusetts Institute of Technology,2011
-PSC,60.6,Massachusetts Institute of Technology,2011
-PCP,63.7,Massachusetts Institute of Technology,2011
-Alumni,68.3,University of California,2011
-Award,79.3,University of California,2011
-HiCi,70,University of California,2011
-PUB,69.5,University of California,2011
-PSC,69.4,University of California,2011
-PCP,53.1,University of California,2011
-Alumni,87.1,University of Cambridge,2011
-Award,96.7,University of Cambridge,2011
-HiCi,54.5,University of Cambridge,2011
-PUB,54.1,University of Cambridge,2011
-PSC,65.1,University of Cambridge,2011
-PCP,52,University of Cambridge,2011
-Alumni,52.6,California Institute of Technology,2011
-Award,68.8,California Institute of Technology,2011
-HiCi,57.3,California Institute of Technology,2011
-PUB,65,California Institute of Technology,2011
-PSC,46.5,California Institute of Technology,2011
-PCP,100,California Institute of Technology,2011
-Alumni,56.7,Princeton University,2011
-Award,87.1,Princeton University,2011
-HiCi,62.1,Princeton University,2011
-PUB,43.8,Princeton University,2011
-PSC,43.4,Princeton University,2011
-PCP,64.2,Princeton University,2011
-Alumni,69.6,Columbia University,2011
-Award,67.4,Columbia University,2011
-HiCi,57.1,Columbia University,2011
-PUB,50.8,Columbia University,2011
-PSC,67.5,Columbia University,2011
-PCP,31,Columbia University,2011
-Alumni,65,University of Chicago,2011
-Award,83.9,University of Chicago,2011
-HiCi,52,University of Chicago,2011
-PUB,40.4,University of Chicago,2011
-PSC,50.9,University of Chicago,2011
-PCP,39.1,University of Chicago,2011
-Alumni,55.5,University of Oxford,2011
-Award,57.6,University of Oxford,2011
-HiCi,48.9,University of Oxford,2011
-PUB,49.7,University of Oxford,2011
-PSC,69.5,University of Oxford,2011
-PCP,40,University of Oxford,2011
-Alumni,100,Harvard University,2012
-Award,100,Harvard University,2012
-HiCi,100,Harvard University,2012
-PUB,100,Harvard University,2012
-PSC,100,Harvard University,2012
-PCP,71.1,Harvard University,2012
-Alumni,38,Stanford University,2012
-Award,79.7,Stanford University,2012
-HiCi,88.9,Stanford University,2012
-PUB,71.6,Stanford University,2012
-PSC,69.6,Stanford University,2012
-PCP,49.2,Stanford University,2012
-Alumni,69,Massachusetts Institute of Technology,2012
-Award,83.2,Massachusetts Institute of Technology,2012
-HiCi,68.2,Massachusetts Institute of Technology,2012
-PUB,69.2,Massachusetts Institute of Technology,2012
-PSC,61.6,Massachusetts Institute of Technology,2012
-PCP,64.1,Massachusetts Institute of Technology,2012
-Alumni,67.5,University of California,2012
-Award,80.9,University of California,2012
-HiCi,69.7,University of California,2012
-PUB,68.5,University of California,2012
-PSC,68.1,University of California,2012
-PCP,53.4,University of California,2012
-Alumni,80.3,University of Cambridge,2012
-Award,97.2,University of Cambridge,2012
-HiCi,54.6,University of Cambridge,2012
-PUB,55,University of Cambridge,2012
-PSC,65.9,University of Cambridge,2012
-PCP,52.1,University of Cambridge,2012
-Alumni,48.5,California Institute of Technology,2012
-Award,68.8,California Institute of Technology,2012
-HiCi,57.4,California Institute of Technology,2012
-PUB,64.8,California Institute of Technology,2012
-PSC,46.2,California Institute of Technology,2012
-PCP,100,California Institute of Technology,2012
-Alumni,52.3,Princeton University,2012
-Award,91.3,Princeton University,2012
-HiCi,62.2,Princeton University,2012
-PUB,44.4,Princeton University,2012
-PSC,44.5,Princeton University,2012
-PCP,66.3,Princeton University,2012
-Alumni,64.2,Columbia University,2012
-Award,68,Columbia University,2012
-HiCi,57.4,Columbia University,2012
-PUB,51.2,Columbia University,2012
-PSC,67.8,Columbia University,2012
-PCP,31,Columbia University,2012
-Alumni,61.8,University of Chicago,2012
-Award,85.3,University of Chicago,2012
-HiCi,52.2,University of Chicago,2012
-PUB,40.6,University of Chicago,2012
-PSC,49.2,University of Chicago,2012
-PCP,38.9,University of Chicago,2012
-Alumni,51.2,University of Oxford,2012
-Award,56.6,University of Oxford,2012
-HiCi,48.9,University of Oxford,2012
-PUB,52.1,University of Oxford,2012
-PSC,68.9,University of Oxford,2012
-PCP,40.3,University of Oxford,2012
-Alumni,100,Harvard University,2013
-Award,100,Harvard University,2013
-HiCi,100,Harvard University,2013
-PUB,100,Harvard University,2013
-PSC,100,Harvard University,2013
-PCP,72.5,Harvard University,2013
-Alumni,40,Stanford University,2013
-Award,80.7,Stanford University,2013
-HiCi,88.9,Stanford University,2013
-PUB,68.7,Stanford University,2013
-PSC,69.4,Stanford University,2013
-PCP,50.4,Stanford University,2013
-Alumni,68,Massachusetts Institute of Technology,2013
-Award,81.3,Massachusetts Institute of Technology,2013
-HiCi,68.2,Massachusetts Institute of Technology,2013
-PUB,69.7,Massachusetts Institute of Technology,2013
-PSC,60.1,Massachusetts Institute of Technology,2013
-PCP,65,Massachusetts Institute of Technology,2013
-Alumni,67.8,University of California,2013
-Award,79,University of California,2013
-HiCi,69.7,University of California,2013
-PUB,68.5,University of California,2013
-PSC,68.1,University of California,2013
-PCP,54.7,University of California,2013
-Alumni,79.1,University of Cambridge,2013
-Award,97.3,University of Cambridge,2013
-HiCi,54.6,University of Cambridge,2013
-PUB,54,University of Cambridge,2013
-PSC,66.2,University of Cambridge,2013
-PCP,53.3,University of Cambridge,2013
-Alumni,47.8,California Institute of Technology,2013
-Award,67.2,California Institute of Technology,2013
-HiCi,57.4,California Institute of Technology,2013
-PUB,62,California Institute of Technology,2013
-PSC,45.2,California Institute of Technology,2013
-PCP,100,California Institute of Technology,2013
-Alumni,52.9,Princeton University,2013
-Award,89.2,Princeton University,2013
-HiCi,62.2,Princeton University,2013
-PUB,45.8,Princeton University,2013
-PSC,44,Princeton University,2013
-PCP,66.9,Princeton University,2013
-Alumni,66.1,Columbia University,2013
-Award,66.4,Columbia University,2013
-HiCi,57.4,Columbia University,2013
-PUB,49.8,Columbia University,2013
-PSC,68,Columbia University,2013
-PCP,31.9,Columbia University,2013
-Alumni,60.9,University of Chicago,2013
-Award,83.4,University of Chicago,2013
-HiCi,52.2,University of Chicago,2013
-PUB,41.9,University of Chicago,2013
-PSC,49.8,University of Chicago,2013
-PCP,39.5,University of Chicago,2013
-Alumni,51.8,University of Oxford,2013
-Award,55.3,University of Oxford,2013
-HiCi,48.9,University of Oxford,2013
-PUB,51.3,University of Oxford,2013
-PSC,69.9,University of Oxford,2013
-PCP,41.2,University of Oxford,2013
-Alumni,100,Harvard University,2014
-Award,100,Harvard University,2014
-HiCi,100,Harvard University,2014
-PUB,100,Harvard University,2014
-PSC,100,Harvard University,2014
-PCP,75.3,Harvard University,2014
-Alumni,41.8,Stanford University,2014
-Award,82.8,Stanford University,2014
-HiCi,79.8,Stanford University,2014
-PUB,71.1,Stanford University,2014
-PSC,70.9,Stanford University,2014
-PCP,51.9,Stanford University,2014
-Alumni,68.4,Massachusetts Institute of Technology,2014
-Award,80.7,Massachusetts Institute of Technology,2014
-HiCi,60.6,Massachusetts Institute of Technology,2014
-PUB,73.6,Massachusetts Institute of Technology,2014
-PSC,61.5,Massachusetts Institute of Technology,2014
-PCP,67.1,Massachusetts Institute of Technology,2014
-Alumni,66.8,University of California,2014
-Award,79.4,University of California,2014
-HiCi,65.3,University of California,2014
-PUB,67.5,University of California,2014
-PSC,68.1,University of California,2014
-PCP,55.9,University of California,2014
-Alumni,79.1,University of Cambridge,2014
-Award,96.6,University of Cambridge,2014
-HiCi,50.8,University of Cambridge,2014
-PUB,56.2,University of Cambridge,2014
-PSC,66.5,University of Cambridge,2014
-PCP,55.2,University of Cambridge,2014
-Alumni,48.5,California Institute of Technology,2014
-Award,66.7,California Institute of Technology,2014
-HiCi,49.3,California Institute of Technology,2014
-PUB,60,California Institute of Technology,2014
-PSC,44.9,California Institute of Technology,2014
-PCP,100,California Institute of Technology,2014
-Alumni,52.1,Princeton University,2014
-Award,88.5,Princeton University,2014
-HiCi,57.1,Princeton University,2014
-PUB,46.2,Princeton University,2014
-PSC,44.2,Princeton University,2014
-PCP,68.1,Princeton University,2014
-Alumni,65.1,Columbia University,2014
-Award,65.9,Columbia University,2014
-HiCi,51.6,Columbia University,2014
-PUB,55,Columbia University,2014
-PSC,69.1,Columbia University,2014
-PCP,33.1,Columbia University,2014
-Alumni,61.4,University of Chicago,2014
-Award,86.3,University of Chicago,2014
-HiCi,48.4,University of Chicago,2014
-PUB,43,University of Chicago,2014
-PSC,50.7,University of Chicago,2014
-PCP,41.5,University of Chicago,2014
-Alumni,51,University of Oxford,2014
-Award,54.9,University of Oxford,2014
-HiCi,52.8,University of Oxford,2014
-PUB,52.7,University of Oxford,2014
-PSC,72.7,University of Oxford,2014
-PCP,43,University of Oxford,2014
-Alumni,100,Harvard University,2015
-Award,100,Harvard University,2015
-HiCi,100,Harvard University,2015
-PUB,100,Harvard University,2015
-PSC,100,Harvard University,2015
-PCP,76.6,Harvard University,2015
-Alumni,40.7,Stanford University,2015
-Award,89.6,Stanford University,2015
-HiCi,80.1,Stanford University,2015
-PUB,70.1,Stanford University,2015
-PSC,70.6,Stanford University,2015
-PCP,53.8,Stanford University,2015
-Alumni,68.2,Massachusetts Institute of Technology,2015
-Award,80.7,Massachusetts Institute of Technology,2015
-HiCi,60.6,Massachusetts Institute of Technology,2015
-PUB,73.1,Massachusetts Institute of Technology,2015
-PSC,61.1,Massachusetts Institute of Technology,2015
-PCP,68,Massachusetts Institute of Technology,2015
-Alumni,65.1,University of California,2015
-Award,79.4,University of California,2015
-HiCi,66.1,University of California,2015
-PUB,65.6,University of California,2015
-PSC,67.9,University of California,2015
-PCP,56.5,University of California,2015
-Alumni,77.1,University of Cambridge,2015
-Award,96.6,University of Cambridge,2015
-HiCi,50.8,University of Cambridge,2015
-PUB,55.6,University of Cambridge,2015
-PSC,66.4,University of Cambridge,2015
-PCP,55.8,University of Cambridge,2015
-Alumni,49.5,California Institute of Technology,2015
-Award,66.7,California Institute of Technology,2015
-HiCi,49.3,California Institute of Technology,2015
-PUB,56.4,California Institute of Technology,2015
-PSC,44,California Institute of Technology,2015
-PCP,100,California Institute of Technology,2015
-Alumni,53.3,Princeton University,2015
-Award,93.4,Princeton University,2015
-HiCi,57.1,Princeton University,2015
-PUB,43,Princeton University,2015
-PSC,42.4,Princeton University,2015
-PCP,70.3,Princeton University,2015
-Alumni,63.5,Columbia University,2015
-Award,65.9,Columbia University,2015
-HiCi,52.1,Columbia University,2015
-PUB,51.9,Columbia University,2015
-PSC,68.8,Columbia University,2015
-PCP,33.2,Columbia University,2015
-Alumni,59.8,University of Chicago,2015
-Award,86.3,University of Chicago,2015
-HiCi,49,University of Chicago,2015
-PUB,42.9,University of Chicago,2015
-PSC,49.8,University of Chicago,2015
-PCP,42,University of Chicago,2015
-Alumni,49.7,University of Oxford,2015
-Award,54.9,University of Oxford,2015
-HiCi,52.3,University of Oxford,2015
-PUB,51.9,University of Oxford,2015
-PSC,70.9,University of Oxford,2015
-PCP,43.1,University of Oxford,2015
+key,value,category,year,include
+Alumni,100,Harvard University,2011,1
+Award,100,Harvard University,2011,1
+HiCi,100,Harvard University,2011,1
+PUB,100,Harvard University,2011,1
+PSC,100,Harvard University,2011,1
+PCP,71.1,Harvard University,2011,1
+Alumni,41.2,Stanford University,2011,1
+Award,78.4,Stanford University,2011,1
+HiCi,88.4,Stanford University,2011,1
+PUB,70.2,Stanford University,2011,1
+PSC,70.3,Stanford University,2011,1
+PCP,48.6,Stanford University,2011,1
+Alumni,72.8,Massachusetts Institute of Technology,2011,1
+Award,81.9,Massachusetts Institute of Technology,2011,1
+HiCi,67.9,Massachusetts Institute of Technology,2011,1
+PUB,70.6,Massachusetts Institute of Technology,2011,1
+PSC,60.6,Massachusetts Institute of Technology,2011,1
+PCP,63.7,Massachusetts Institute of Technology,2011,1
+Alumni,68.3,University of California,2011,1
+Award,79.3,University of California,2011,1
+HiCi,70,University of California,2011,1
+PUB,69.5,University of California,2011,1
+PSC,69.4,University of California,2011,1
+PCP,53.1,University of California,2011,1
+Alumni,87.1,University of Cambridge,2011,1
+Award,96.7,University of Cambridge,2011,1
+HiCi,54.5,University of Cambridge,2011,1
+PUB,54.1,University of Cambridge,2011,1
+PSC,65.1,University of Cambridge,2011,1
+PCP,52,University of Cambridge,2011,1
+Alumni,52.6,California Institute of Technology,2011,1
+Award,68.8,California Institute of Technology,2011,1
+HiCi,57.3,California Institute of Technology,2011,1
+PUB,65,California Institute of Technology,2011,1
+PSC,46.5,California Institute of Technology,2011,1
+PCP,100,California Institute of Technology,2011,1
+Alumni,56.7,Princeton University,2011,1
+Award,87.1,Princeton University,2011,1
+HiCi,62.1,Princeton University,2011,1
+PUB,43.8,Princeton University,2011,1
+PSC,43.4,Princeton University,2011,1
+PCP,64.2,Princeton University,2011,1
+Alumni,69.6,Columbia University,2011,1
+Award,67.4,Columbia University,2011,1
+HiCi,57.1,Columbia University,2011,1
+PUB,50.8,Columbia University,2011,1
+PSC,67.5,Columbia University,2011,1
+PCP,31,Columbia University,2011,1
+Alumni,65,University of Chicago,2011,1
+Award,83.9,University of Chicago,2011,1
+HiCi,52,University of Chicago,2011,1
+PUB,40.4,University of Chicago,2011,1
+PSC,50.9,University of Chicago,2011,1
+PCP,39.1,University of Chicago,2011,1
+Alumni,55.5,University of Oxford,2011,1
+Award,57.6,University of Oxford,2011,1
+HiCi,48.9,University of Oxford,2011,1
+PUB,49.7,University of Oxford,2011,1
+PSC,69.5,University of Oxford,2011,1
+PCP,40,University of Oxford,2011,1
+Alumni,100,Harvard University,2012,1
+Award,100,Harvard University,2012,1
+HiCi,100,Harvard University,2012,1
+PUB,100,Harvard University,2012,1
+PSC,100,Harvard University,2012,1
+PCP,71.1,Harvard University,2012,1
+Alumni,38,Stanford University,2012,1
+Award,79.7,Stanford University,2012,1
+HiCi,88.9,Stanford University,2012,1
+PUB,71.6,Stanford University,2012,1
+PSC,69.6,Stanford University,2012,1
+PCP,49.2,Stanford University,2012,1
+Alumni,69,Massachusetts Institute of Technology,2012,1
+Award,83.2,Massachusetts Institute of Technology,2012,1
+HiCi,68.2,Massachusetts Institute of Technology,2012,1
+PUB,69.2,Massachusetts Institute of Technology,2012,1
+PSC,61.6,Massachusetts Institute of Technology,2012,1
+PCP,64.1,Massachusetts Institute of Technology,2012,1
+Alumni,67.5,University of California,2012,1
+Award,80.9,University of California,2012,1
+HiCi,69.7,University of California,2012,1
+PUB,68.5,University of California,2012,1
+PSC,68.1,University of California,2012,1
+PCP,53.4,University of California,2012,1
+Alumni,80.3,University of Cambridge,2012,1
+Award,97.2,University of Cambridge,2012,1
+HiCi,54.6,University of Cambridge,2012,1
+PUB,55,University of Cambridge,2012,1
+PSC,65.9,University of Cambridge,2012,1
+PCP,52.1,University of Cambridge,2012,1
+Alumni,48.5,California Institute of Technology,2012,1
+Award,68.8,California Institute of Technology,2012,1
+HiCi,57.4,California Institute of Technology,2012,1
+PUB,64.8,California Institute of Technology,2012,1
+PSC,46.2,California Institute of Technology,2012,1
+PCP,100,California Institute of Technology,2012,1
+Alumni,52.3,Princeton University,2012,1
+Award,91.3,Princeton University,2012,1
+HiCi,62.2,Princeton University,2012,1
+PUB,44.4,Princeton University,2012,1
+PSC,44.5,Princeton University,2012,1
+PCP,66.3,Princeton University,2012,1
+Alumni,64.2,Columbia University,2012,1
+Award,68,Columbia University,2012,1
+HiCi,57.4,Columbia University,2012,1
+PUB,51.2,Columbia University,2012,1
+PSC,67.8,Columbia University,2012,1
+PCP,31,Columbia University,2012,1
+Alumni,61.8,University of Chicago,2012,1
+Award,85.3,University of Chicago,2012,1
+HiCi,52.2,University of Chicago,2012,1
+PUB,40.6,University of Chicago,2012,1
+PSC,49.2,University of Chicago,2012,1
+PCP,38.9,University of Chicago,2012,1
+Alumni,51.2,University of Oxford,2012,1
+Award,56.6,University of Oxford,2012,1
+HiCi,48.9,University of Oxford,2012,1
+PUB,52.1,University of Oxford,2012,1
+PSC,68.9,University of Oxford,2012,1
+PCP,40.3,University of Oxford,2012,1
+Alumni,100,Harvard University,2013,1
+Award,100,Harvard University,2013,1
+HiCi,100,Harvard University,2013,1
+PUB,100,Harvard University,2013,1
+PSC,100,Harvard University,2013,1
+PCP,72.5,Harvard University,2013,1
+Alumni,40,Stanford University,2013,1
+Award,80.7,Stanford University,2013,1
+HiCi,88.9,Stanford University,2013,1
+PUB,68.7,Stanford University,2013,1
+PSC,69.4,Stanford University,2013,1
+PCP,50.4,Stanford University,2013,1
+Alumni,68,Massachusetts Institute of Technology,2013,1
+Award,81.3,Massachusetts Institute of Technology,2013,1
+HiCi,68.2,Massachusetts Institute of Technology,2013,1
+PUB,69.7,Massachusetts Institute of Technology,2013,1
+PSC,60.1,Massachusetts Institute of Technology,2013,1
+PCP,65,Massachusetts Institute of Technology,2013,1
+Alumni,67.8,University of California,2013,1
+Award,79,University of California,2013,1
+HiCi,69.7,University of California,2013,1
+PUB,68.5,University of California,2013,1
+PSC,68.1,University of California,2013,1
+PCP,54.7,University of California,2013,1
+Alumni,79.1,University of Cambridge,2013,1
+Award,97.3,University of Cambridge,2013,1
+HiCi,54.6,University of Cambridge,2013,1
+PUB,54,University of Cambridge,2013,1
+PSC,66.2,University of Cambridge,2013,1
+PCP,53.3,University of Cambridge,2013,1
+Alumni,47.8,California Institute of Technology,2013,1
+Award,67.2,California Institute of Technology,2013,1
+HiCi,57.4,California Institute of Technology,2013,1
+PUB,62,California Institute of Technology,2013,1
+PSC,45.2,California Institute of Technology,2013,1
+PCP,100,California Institute of Technology,2013,1
+Alumni,52.9,Princeton University,2013,1
+Award,89.2,Princeton University,2013,1
+HiCi,62.2,Princeton University,2013,1
+PUB,45.8,Princeton University,2013,1
+PSC,44,Princeton University,2013,1
+PCP,66.9,Princeton University,2013,1
+Alumni,66.1,Columbia University,2013,1
+Award,66.4,Columbia University,2013,1
+HiCi,57.4,Columbia University,2013,1
+PUB,49.8,Columbia University,2013,1
+PSC,68,Columbia University,2013,1
+PCP,31.9,Columbia University,2013,1
+Alumni,60.9,University of Chicago,2013,1
+Award,83.4,University of Chicago,2013,1
+HiCi,52.2,University of Chicago,2013,1
+PUB,41.9,University of Chicago,2013,1
+PSC,49.8,University of Chicago,2013,1
+PCP,39.5,University of Chicago,2013,1
+Alumni,51.8,University of Oxford,2013,1
+Award,55.3,University of Oxford,2013,1
+HiCi,48.9,University of Oxford,2013,1
+PUB,51.3,University of Oxford,2013,1
+PSC,69.9,University of Oxford,2013,1
+PCP,41.2,University of Oxford,2013,1
+Alumni,100,Harvard University,2014,1
+Award,100,Harvard University,2014,1
+HiCi,100,Harvard University,2014,1
+PUB,100,Harvard University,2014,1
+PSC,100,Harvard University,2014,1
+PCP,75.3,Harvard University,2014,1
+Alumni,41.8,Stanford University,2014,1
+Award,82.8,Stanford University,2014,1
+HiCi,79.8,Stanford University,2014,1
+PUB,71.1,Stanford University,2014,1
+PSC,70.9,Stanford University,2014,1
+PCP,51.9,Stanford University,2014,1
+Alumni,68.4,Massachusetts Institute of Technology,2014,1
+Award,80.7,Massachusetts Institute of Technology,2014,1
+HiCi,60.6,Massachusetts Institute of Technology,2014,1
+PUB,73.6,Massachusetts Institute of Technology,2014,1
+PSC,61.5,Massachusetts Institute of Technology,2014,1
+PCP,67.1,Massachusetts Institute of Technology,2014,1
+Alumni,66.8,University of California,2014,1
+Award,79.4,University of California,2014,1
+HiCi,65.3,University of California,2014,1
+PUB,67.5,University of California,2014,1
+PSC,68.1,University of California,2014,1
+PCP,55.9,University of California,2014,1
+Alumni,79.1,University of Cambridge,2014,1
+Award,96.6,University of Cambridge,2014,1
+HiCi,50.8,University of Cambridge,2014,1
+PUB,56.2,University of Cambridge,2014,1
+PSC,66.5,University of Cambridge,2014,1
+PCP,55.2,University of Cambridge,2014,1
+Alumni,48.5,California Institute of Technology,2014,1
+Award,66.7,California Institute of Technology,2014,1
+HiCi,49.3,California Institute of Technology,2014,1
+PUB,60,California Institute of Technology,2014,1
+PSC,44.9,California Institute of Technology,2014,1
+PCP,100,California Institute of Technology,2014,1
+Alumni,52.1,Princeton University,2014,1
+Award,88.5,Princeton University,2014,1
+HiCi,57.1,Princeton University,2014,1
+PUB,46.2,Princeton University,2014,1
+PSC,44.2,Princeton University,2014,1
+PCP,68.1,Princeton University,2014,1
+Alumni,65.1,Columbia University,2014,1
+Award,65.9,Columbia University,2014,1
+HiCi,51.6,Columbia University,2014,1
+PUB,55,Columbia University,2014,1
+PSC,69.1,Columbia University,2014,1
+PCP,33.1,Columbia University,2014,1
+Alumni,61.4,University of Chicago,2014,1
+Award,86.3,University of Chicago,2014,1
+HiCi,48.4,University of Chicago,2014,1
+PUB,43,University of Chicago,2014,1
+PSC,50.7,University of Chicago,2014,1
+PCP,41.5,University of Chicago,2014,1
+Alumni,51,University of Oxford,2014,1
+Award,54.9,University of Oxford,2014,1
+HiCi,52.8,University of Oxford,2014,1
+PUB,52.7,University of Oxford,2014,1
+PSC,72.7,University of Oxford,2014,1
+PCP,43,University of Oxford,2014,1
+Alumni,100,Harvard University,2015,1
+Award,100,Harvard University,2015,1
+HiCi,100,Harvard University,2015,1
+PUB,100,Harvard University,2015,1
+PSC,100,Harvard University,2015,1
+PCP,76.6,Harvard University,2015,1
+Alumni,40.7,Stanford University,2015,1
+Award,89.6,Stanford University,2015,1
+HiCi,80.1,Stanford University,2015,1
+PUB,70.1,Stanford University,2015,1
+PSC,70.6,Stanford University,2015,1
+PCP,53.8,Stanford University,2015,1
+Alumni,68.2,Massachusetts Institute of Technology,2015,1
+Award,80.7,Massachusetts Institute of Technology,2015,1
+HiCi,60.6,Massachusetts Institute of Technology,2015,1
+PUB,73.1,Massachusetts Institute of Technology,2015,1
+PSC,61.1,Massachusetts Institute of Technology,2015,1
+PCP,68,Massachusetts Institute of Technology,2015,1
+Alumni,65.1,University of California,2015,1
+Award,79.4,University of California,2015,1
+HiCi,66.1,University of California,2015,1
+PUB,65.6,University of California,2015,1
+PSC,67.9,University of California,2015,1
+PCP,56.5,University of California,2015,1
+Alumni,77.1,University of Cambridge,2015,1
+Award,96.6,University of Cambridge,2015,1
+HiCi,50.8,University of Cambridge,2015,1
+PUB,55.6,University of Cambridge,2015,1
+PSC,66.4,University of Cambridge,2015,1
+PCP,55.8,University of Cambridge,2015,1
+Alumni,49.5,California Institute of Technology,2015,1
+Award,66.7,California Institute of Technology,2015,1
+HiCi,49.3,California Institute of Technology,2015,1
+PUB,56.4,California Institute of Technology,2015,1
+PSC,44,California Institute of Technology,2015,1
+PCP,100,California Institute of Technology,2015,1
+Alumni,53.3,Princeton University,2015,1
+Award,93.4,Princeton University,2015,1
+HiCi,57.1,Princeton University,2015,1
+PUB,43,Princeton University,2015,1
+PSC,42.4,Princeton University,2015,1
+PCP,70.3,Princeton University,2015,1
+Alumni,63.5,Columbia University,2015,1
+Award,65.9,Columbia University,2015,1
+HiCi,52.1,Columbia University,2015,1
+PUB,51.9,Columbia University,2015,1
+PSC,68.8,Columbia University,2015,1
+PCP,33.2,Columbia University,2015,1
+Alumni,59.8,University of Chicago,2015,1
+Award,86.3,University of Chicago,2015,1
+HiCi,49,University of Chicago,2015,1
+PUB,42.9,University of Chicago,2015,1
+PSC,49.8,University of Chicago,2015,1
+PCP,42,University of Chicago,2015,1
+Alumni,49.7,University of Oxford,2015,1
+Award,54.9,University of Oxford,2015,1
+HiCi,52.3,University of Oxford,2015,1
+PUB,51.9,University of Oxford,2015,1
+PSC,70.9,University of Oxford,2015,1
+PCP,43.1,University of Oxford,2015,1
