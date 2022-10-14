@@ -1,21 +1,21 @@
 ﻿university_name,accepted,total_app,acceptance_rate,condition,percent
-Harvard University,2158,34950,6.2%,Accepted,6.2
-Stanford University,2140,42497,5.0%,Accepted,5
-Massachusetts Institute of Technology,1519,18306,8.3%,Accepted,8.3
-University of California,11820,78893,15.0%,Accepted,15
-University of Cambridge,3449,16431,15.0%,Accepted,15
-Princeton University,2282,31659,7.2%,Accepted,7.2
-California Institute of Technology,576,6525,8.8%,Accepted,8.8
-Columbia University,2419,34929,6.9%,Accepted,6.9
-University of Chicago,2521,27500,9.2%,Accepted,9.2
-University of Oxford,3216,18377,17.5%,Accepted,17.5
-University of Oxford,3216,18377,6.2%,Rejected,82.5
-Harvard University,2158,34950,5.0%,Rejected,93.8
-Stanford University,2140,42497,8.3%,Rejected,95
-Massachusetts Institute of Technology,1519,18306,15.0%,Rejected,91.7
-University of California,11820,78893,15.0%,Rejected,85
-University of Cambridge,3449,16431,7.2%,Rejected,85
-Princeton University,2282,31659,8.8%,Rejected,92.8
-California Institute of Technology,576,6525,6.9%,Rejected,91.2
-Columbia University,2419,34929,9.2%,Rejected,93.1
-University of Chicago,2521,27500,17.5%,Rejected,90.8
+Harvard University,2158,34950,6.20%,Accepted,6.2
+Stanford University,2140,42497,5.00%,Accepted,5
+Massachusetts Institute of Technology,1519,18306,8.30%,Accepted,8.3
+University of California,11820,78893,15.00%,Accepted,15
+University of Cambridge,3449,16431,15.00%,Accepted,15
+Princeton University,2282,31659,7.20%,Accepted,7.2
+California Institute of Technology,576,6525,8.80%,Accepted,8.8
+Columbia University,2419,34929,6.90%,Accepted,6.9
+University of Chicago,2521,27500,9.20%,Accepted,9.2
+University of Oxford,3216,18377,17.50%,Accepted,17.5
+Harvard University,2158,34950,6.20%,Rejected,93.8
+Stanford University,2140,42497,5.00%,Rejected,95
+Massachusetts Institute of Technology,1519,18306,8.30%,Rejected,91.7
+University of California,11820,78893,15.00%,Rejected,85
+University of Cambridge,3449,16431,15.00%,Rejected,85
+Princeton University,2282,31659,7.20%,Rejected,92.8
+California Institute of Technology,576,6525,8.80%,Rejected,91.2
+Columbia University,2419,34929,6.90%,Rejected,93.1
+University of Chicago,2521,27500,9.20%,Rejected,90.8
+University of Oxford,3216,18377,17.50%,Rejected,82.5
