@@ -2,60 +2,131 @@ body *{
     font-family: 'Open Sans', sans-serif;
   }
 body{
-  background-color: rgb(211,238,215);
+  background-image: url('https://user-images.githubusercontent.com/111416441/195980588-87202927-3c61-43f4-b0fe-f82cfcb60864.png');
 }
-  
   h1 {
-    padding-top: 70px;
-    font-weight: 700; text-align: center;
+    padding-top: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    text-align: center;
     font-size: 50px;
+    color: white;
+  }
+
+  h2 {
+    padding-top: 17px;
+    padding-left: 60px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: black;
+  }
+
+  h3 {
+    padding-top: 0px;
+    padding-left: 30px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: black;
+  }
+
+  h4 {
+    padding-top: 0px;
+    padding-left: 30px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: black;
+  }
+
+  h5 {
+    padding-left: 20px;
+    padding-top: 0px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
   }
   
-  .page {
-    width: 1100px;
-    background-color: white;
+  .page1 {
+    width: 1000px;
+    background-color: #562d49;
     margin: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    border-radius: 20px;
-  
+    margin-top: 80px;
+    margin-bottom: 0px;
+    border-radius: 4px;
   }
+
+  .page {
+    width: 1000px;
+    background-color: rgb(244, 236, 236);
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+  }
+
+  .page5 {
+    width: 1000px;
+    background-color: rgb(244, 236, 236);
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    border-radius: 4px;
+  }
+  
   
   .vis-container {
     width: 80%;
   }
   
-  .description h2,
-  h1 {
-    margin-top: 0px;
+  .description-heading {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
+    text-align: justify;
   }
 
-  .description-left {
-    padding-top: 20px;
-    padding-left: 50px;
-    padding-right: 25px;
-    font-size: 16px;
+  .description-left-1 {
+    padding-top: 0  px;
+    padding-left: 30px;
+    font-size: 15px;
+    text-align: justify;
   }
 
-  .description-right {
-    padding-top: 20px;
-    padding-left: 120px;
-    padding-right: 15px;
+  .description-right-2 {
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 40px;
     font-size: 15px;
     word-spacing: 2px;
+    text-align: left;
   }
-  
-  .description-right-2 {
-    padding-top: 0px ;
-    padding-left: 300px;
-    padding-right: 15px;
-    font-size: 15px;
-  }
-  .description-right-3 {
+
+
+  .description-top-1 {
     padding-top: 0px;
-    padding-left: 300px;
-    padding-right: 15px;
+    padding-left: 30px;
+    padding-right: 10px;
     font-size: 15px;
+    text-align: justify;
+  }
+
+  .description-top-2 {
+    padding-top: 97px;
+    padding-left: 20px;
+    padding-right: 30px;
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  .description-right-1 {
+    padding-top: 0px;
+    padding-left: 60px;
+    padding-right: 30px;
+    font-size: 15px;
+    text-align: justify;
   }
   
   .pure-g {
@@ -67,30 +138,38 @@ body{
   }
 
   #vis1{
-    padding-top: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     align-items: center;
-    padding-left: 125px;
-    padding-right: 10px;
+    padding-left:40px;
   }
 
   #vis2{
-    padding-top: 45px;
+    padding-top: 20px;
     align-items: center;
-    padding-left: 15px;
-    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 30px;
   }
 
   #vis3{
-    padding-top: 25px;
+    padding-top: 30px;
     align-items: center;
-    padding-left: 10px;
-    margin-left:0px;
-    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
   }
 
   #vis4{
-    padding-top: 25px;
+    padding-top: 20px;
     align-items: center;
-    padding-left: 10px;
+    padding-left: 30px;
     padding-right: 100px;
+  }
+
+  #vis5{
+    padding-top: 20px;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 0px;
+    padding-bottom: 40px;
   }

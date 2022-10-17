@@ -1,49 +1,83 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Stock prices of 5 Tech Companies over Time.",
-  "title": "Top 10 Universities' Total Score",
+  "title": {
+    "text": "Total ccore of top 10 universities (2011-2015)",
+    "fontSize": 14,
+    "font": "Open Sans"
+  },
+  "background": "#f4ecec",
   "data": {
     "url": "https://raw.githubusercontent.com/Thuylinh811/FIT3179/main/Long%20data%20total%20score%20top%2010.csv"
   },
-  "width": 399,
-  "height": 300,
-  "mark": {"type": "line", "point": true},
+  "width": 870,
+  "height": 400,
+  "mark": {
+    "type": "line",
+    "strokeWidth":2.5,
+    "point": {"size":100}
+  },
   "params": [
     {
       "name": "legend_interact",
-      "select": {"type": "point", "fields": ["university"]},
+      "select": {
+        "type": "point",
+        "fields": [
+          "university"
+        ]
+      },
       "bind": "legend"
     }
   ],
   "encoding": {
-    "x": {"title": "Year", "timeUnit": "year", "field": "date","axis":{"tickCount":5}},
+    "x": {
+      "title": "Year",
+      "timeUnit": "year",
+      "field": "date",
+      "axis": {
+        "tickCount": 5
+      }
+    },
     "y": {
       "title": "Score",
       "aggregate": "average",
       "field": "score",
       "type": "quantitative",
-      "scale": {"zero": false}
+      "scale": {
+        "zero": false
+      }
     },
     "color": {
       "field": "university",
       "type": "nominal",
+      "legend":{
+        "direction": "vertical",
+        "orient": "none",
+        "title":"University",
+        "legendY":220,
+        "legendX":710,
+        "titleAnchor":"start"
+      },
       "scale": {
         "range": [
-          "#142458",
-          "#186ba1",
-          "#1a9ce6",
-          "#2fb7e1",
-          "#1bd5d4",
-          "#1de4bd",
-          "#7cd5c0",
-          "#3ca57b",
-          "#1b8689",
-          "#0b686a"
+          "#7e4792",
+          "#365071",
+          "#4b63b7",
+          "#431c51",
+          "#6d5a7a",
+          "#ec3b83",
+          "#ffd312",
+          "#b66576",
+          "#e66b6e",
+          "#ebac8b"
         ]
       }
     },
     "opacity": {
-      "condition": {"param": "legend_interact", "value": 1},
+      "condition": {
+        "param": "legend_interact",
+        "value": 1
+      },
       "value": 0.2
     }
   },

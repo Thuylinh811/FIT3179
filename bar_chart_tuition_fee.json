@@ -1,9 +1,14 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Top 10 Universities' Tution Fees",
+  "title":{
+   "text":"Tution cost of top 10 universities",
+    "fontSize":14,
+    "font": "Open Sans"
+  },
   "data": {
     "url": "https://raw.githubusercontent.com/Thuylinh811/FIT3179/main/Tuition%20fee%20long%20data.csv"
   },
+  "background": "#f4ecec",
   "height": 300,
   "width": 400,
   "mark": {"type": "bar"},
@@ -52,23 +57,24 @@
       "field": "tuition_fee",
       "type": "quantitative",
       "title": "Tuition fee",
-      "axis": {"grid": false}
+      "axis": {"grid": true}
     },
     "color": {
+      "legend":null,
       "field": "university",
       "type": "nominal",
       "scale": {
         "range": [
-          "#142458",
-          "#186ba1",
-          "#1a9ce6",
-          "#2fb7e1",
-          "#1bd5d4",
-          "#1de4bd",
-          "#7cd5c0",
-          "#3ca57b",
-          "#1b8689",
-          "#0b686a"
+          "#7e4792",
+          "#365071",
+          "#4b63b7",
+          "#431c51",
+          "#6d5a7a",
+          "#ec3b83",
+          "#ffd312",
+          "#b66576",
+          "#e66b6e",
+          "#ebac8b"
         ]
       }
     },

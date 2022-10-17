@@ -1,0 +1,354 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "#f4ecec",
+  "params": [
+    {
+      "name": "university_selection",
+      "value": "Harvard University",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Harvard University",
+          "Stanford University",
+          "Massachusetts Institute of Technology",
+          "University of California",
+          "University of Cambridge",
+          "Princeton University",
+          "California Institute of Technology",
+          "Columbia University",
+          "University of Chicago",
+          "University of Oxford"
+        ],
+        "labels": [
+          "Harvard University",
+          "Stanford University",
+          "Massachusetts Institute of Technology",
+          "University of California",
+          "University of Cambridge",
+          "Princeton University",
+          "California Institute of Technology",
+          "Columbia University",
+          "University of Chicago",
+          "University of Oxford"
+        ],
+        "name": "University Selection: "
+      }
+    }
+  ],
+  "vconcat": [
+    {
+      "title": {
+        "text": " Acceptance rate sorted by gender (2015)",
+        "fontSize": 25,
+        "font": "Open Sans"
+      },
+      "height": 80,
+      "width": 520,
+      "data": {
+        "url": "https://raw.githubusercontent.com/Thuylinh811/FIT3179/main/Acceptance%20rate%202015.csv"
+      },
+      "transform": [
+        {"filter": "datum.university_name == 'Harvard University'"}
+      ],
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "font": "Open Sans",
+        "fontSize": 15,
+        "color": "black",
+        "fontWeight":"lighter"
+      },
+      "encoding": {
+        "text": {
+          "condition": [
+            {
+              "test": "university_selection == 'Harvard University'",
+              "value": [
+                "Harvard University received 34,950 undergraduate applicationsin 2015, which",
+                "represents a 0.7% annual decline. Out of those 34,950 applicants, 536 students ",
+                " were accepted for enrollment, representing a 6.2 % acceptance rate.",
+                " "
+              ]
+            },
+            {
+              "test": "university_selection == 'Stanford University'",
+              "value": [
+                "Stanford University received 42,497 undergraduate applications in 2015, which",
+                "represents a 0.1% annual decline. Out of those 42,497 applicants, 2,158 students",
+                "were accepted for enrollment, representing a 5% acceptance rate.",
+                " "
+              ]
+            },
+            {
+              "test": "university_selection == 'University of Cambridge'",
+              "value": [
+                "University of Cambridge received 16,431 undergraduate applications in 2015,",
+                "which represents a 0.4% annual increase. Out of those 16,431 applicants,",
+                "3,449 students were accepted, representing a 21% acceptance rate.",
+                " "
+              ]
+            },
+            {
+              "test": "university_selection == 'Massachusetts Institute of Technology'",
+              "value": [
+                "Massachusetts Institute of Technology (MIT) received 18,306 undergraduate ",
+                "applications in 2015, which represents a 0.4% annual increase.  Out of those",
+                "applicants, 1,519 students were accepted, representing a 8.3% acceptance rate.",
+                " "
+              ]
+            },
+            {
+              "test": "university_selection == 'University of California'",
+              "value": [
+                "University of California, Berkeley received 78,893 undergraduate applications",
+                "in 2015, which represents a 1% annual decrease. Out of those applicants,",
+                "11,820 students were accepted, representing a 15% acceptance rate.",
+                " "
+              ]
+            },
+            {
+              "test": "university_selection == 'Princeton University'",
+              "value": [
+                "Princeton University received 31,659 undergraduate applications in 2015, which",
+                "represents a 1% annual decrease. Out of those 31,659 applicants, 2,282 ",
+                "students were accepted for enrollment, representing a 7.2% acceptance rate.",
+                " "
+              ]
+            },
+            {
+              "test": "university_selection == 'University of Oxford'",
+              "value": [
+                "University of Oxford received 18,377 undergraduate applications in 2015, which",
+                "represents a 0.6% annual decrease. Out of those 18,377 applicants, 3,216",
+                "students were accepted for enrollment, representing a 17.5% acceptance rate.",
+                " "
+              ]
+            },
+            {
+              "test": "university_selection == 'Columbia University'",
+              "value": [
+                "Columbia University received 34,929 undergraduate applications in 2015, which",
+                "represents a 2.3% annual decrease.. Out of those 34,929 applicants, 2,419",
+                "students were accepted for enrollment, representing a 6.9% acceptance rate.",
+                " "
+              ]
+            },
+            {
+              "test": "university_selection == 'California Institute of Technology'",
+              "value": [
+                "California Institute of Technology received 6,525 undergraduate applications",
+                "in 2015, which is consistent with 2014. Out of those 6,525 applicants, 576",
+                "students were accepted for enrollment, representing a 8.8% acceptance rate.",
+                " "
+              ]
+            },
+            {
+              "test": "university_selection == 'University of Chicago'",
+              "value": [
+                "The University of Chicago received 27,500 undergraduate applications in 2015,",
+                "which represents a 1.2% annual decrease. Out of those 27,500 applicants, 2,512",
+                "students were accepted for enrollment, representing a 9.2% acceptance rate.",
+                " "
+              ]
+            }
+          ],
+          "value": ""
+        }
+      }
+    },
+    {
+      "hconcat": [
+        {
+          "title": {
+            "text": "Acceptance rate",
+            "font": "Open Sans",
+            "fontSize": 12,
+            "offset": 20
+          },
+          "data": {
+            "url": "https://raw.githubusercontent.com/Thuylinh811/FIT3179/main/Acceptance%20rate%202015.csv"
+          },
+          "transform": [
+            {"filter": "datum.university_name == university_selection"},
+            {"calculate": "datum.acceptance_rate", "as": "inner_text"}
+          ],
+          "width": 250,
+          "height": 150,
+          "layer": [
+            {
+              "mark": {"type": "arc", "innerRadius": 50, "outerRadius":80},
+              "encoding": {
+                "theta": {"field": "percent", "type": "quantitative"},
+                "color": {
+                  "field": "condition",
+                  "type": "nominal",
+                  "scale": {"domain": ["Accepted", "Rejected"]}
+                },
+                "tooltip": [
+                  {
+                    "field": "university_name",
+                    "type": "nominal",
+                    "title": "University"
+                  },
+                  {"field": "condition", "type": "nominal", "title": "Type"},
+                  {
+                    "field": "total_app",
+                    "type": "quantitative",
+                    "title": "Total application"
+                  },
+                  {
+                    "field": "accepted",
+                    "type": "quantitative",
+                    "title": "Total accepted applications"
+                  },
+                  {
+                    "field": "percent",
+                    "type": "quantitative",
+                    "title": "Acceptance rate"
+                  }
+                ]
+              }
+            },
+            {
+              "mark": {"type": "text", "fontSize": 20},
+              "encoding": {"text": {"field": "inner_text"}}
+            },
+            {
+              "mark": {
+                "type": "text",
+                "x": 190,
+                "y": -5,
+                "fontSize": 12,
+                "font": "Open Sans",
+                "color": "#4c78a8",
+                "fontWeight": "bold"
+              },
+              "encoding": {
+                "text": {
+                  "condition": {
+                    "test": "datum.condition == 'Accepted'",
+                    "value": "Accepted"
+                  },
+                  "value": ""
+                }
+              }
+            },
+            {
+              "mark": {
+                "type": "text",
+                "x": 25,
+                "y": 30,
+                "fontSize": 12,
+                "font": "Open Sans",
+                "fontWeight": "bold",
+                "color": "#f58518"
+              },
+              "encoding": {
+                "text": {
+                  "condition": {
+                    "test": "datum.condition == 'Rejected'",
+                    "value": "Rejected"
+                  },
+                  "value": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "text": "Female to male ratio",
+            "font": "Open Sans",
+            "fontSize": 12,
+            "offset": 30
+          },
+          "data": {
+            "url": "https://raw.githubusercontent.com/Thuylinh811/FIT3179/main/female-male-ratio.csv",
+            "format": {"type": "csv"}
+          },
+          "transform": [
+            {"filter": "datum.university_name == university_selection"},
+            {"calculate": "datum.female_male_ratio", "as": "inner_text"}
+          ],
+          "width": 230,
+          "height": 150,
+          "layer": [
+            {
+              "mark": {"type": "arc", "innerRadius": 50,"outerRadius":80},
+              "encoding": {
+                "theta": {"field": "gender_percent", "type": "quantitative"},
+                "color": {
+                  "field": "gender",
+                  "type": "nominal",
+                  "scale": {"domain": ["Male", "Female"]},
+                  "legend": null
+                },
+                "tooltip": [
+                  {
+                    "field": "university_name",
+                    "type": "nominal",
+                    "title": "University"
+                  },
+                  {"field": "gender", "type": "nominal", "title": "Type"},
+                  {
+                    "field": "gender_percent",
+                    "type": "quantitative",
+                    "title": "Female-to-Male ratio"
+                  }
+                ]
+              }
+            },
+            {
+              "mark": {"type": "text", "fontSize": 20},
+              "encoding": {"text": {"field": "inner_text"}}
+            },
+            {
+              "mark": {
+                "type": "text",
+                "x": 20,
+                "y": 30,
+                "fontSize": 12,
+                "font": "Open Sans",
+                "color": "#e45756",
+                "fontWeight": "bold"
+              },
+              "encoding": {
+                "text": {
+                  "condition": {
+                    "test": "datum.gender == 'Male'",
+                    "value": "Male"
+                  },
+                  "value": ""
+                }
+              }
+            },
+            {
+              "mark": {
+                "type": "text",
+                "x": 210,
+                "y": 30,
+                "fontSize": 12,
+                "font": "Open Sans",
+                "fontWeight": "bold",
+                "color": "#72b7b2"
+              },
+              "encoding": {
+                "text": {
+                  "condition": {
+                    "test": "datum.gender == 'Female'",
+                    "value": "Female"
+                  },
+                  "value": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "config": {
+    "text": {"fontWeight": "lighter"},
+    "style": {"cell": {"stroke": "transparent"}}
+  }
+}

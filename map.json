@@ -1,8 +1,13 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Top 500 Univeristies Average Score (2015)",
-  "width": 800,
-  "height": 400,
+  "title":{
+   "text":"Number of top 500 universities by country",
+   "fontSize":14,
+   "font": "Open Sans"
+  },
+  "background": "#f4ecec",
+  "width": 900,
+  "height": 500,
   "projection": {"type": "equalEarth"},
   "data": {
     "url": "https://raw.githubusercontent.com/Thuylinh811/FIT3179/main/ne_110m%20(1).json",
@@ -56,18 +61,24 @@
           }
         }
       ],
-      "mark": {"type": "geoshape", "stroke": "white"},
+      "mark": {"type": "geoshape", "stroke": "black", "strokeWidth":0.5},
       "encoding": {
         "color": {
           "field": "Number of universities",
           "type": "quantitative",
+          "legend":{
+            "direction": "horizontal",
+            "orient": "none",
+            "title":"Number of universities in top 500",
+            "legendY":490,
+            "legendX":350,
+            "titleAnchor":"middle"
+          },
+  
           "scale": {
             "type": "threshold",
             "domain": [10, 50, 100, 150],
-            "range": ["#7cd5c0",
-            "#3ca57b",
-            "#1b8689",
-            "#0b686a"]
+            "range": ["#cbc9e2", "#9e9ac8", "#756bb1", "#54278f"]
           }
         },
         "tooltip": [
@@ -76,9 +87,44 @@
           {"field": "Average Score", "type": "quantitative"}
         ]
       }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "font": "Open Sans",
+        "x": 118,
+        "y": 105,
+        "color": "darkred",
+        "opacity":0.1,
+        "fontSize": 12
+      },
+      "encoding": {
+        "text": {
+          "value": [
+            "United States"
+          ]
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "font": "Open Sans",
+        "x": 110,
+        "y": 120,
+        "color": "black",
+        "opacity":0.05,
+        "fontSize": 9
+      },
+      "encoding": {
+        "text": {
+          "value": [
+            "One-third of the top 500",
+            "universities are from the U.S."
+          ]
+        }
+      }
     }
   ],
-  "config": {
-    "view":{"stroke":"transparent"}
-  }
+  "config": {"view": {"stroke": "transparent"}}
 }
